@@ -1,6 +1,6 @@
 # PROJECT OVERVIEW
 
-Order management handles everything from receiving the order to delivery and post-delivery customer service relations. Without order management, a business can easily become overwhelmed by orders or struggle to fill them correctly. Thats where the my order handling we application comes in, It is a web application that can be used for inventory purposes basically handling companies orders for easy management and ensures security.
+Order handling web app handles everything from receiving the order to delivery and post-delivery customer service relations. Without order management, a business can easily become overwhelmed by orders or struggle to fill them correctly. Thats where the my order handling web application comes in, It is a web application that can be used for inventory purposes basically handling companies orders for easy management and ensures security.
 
 # PROJECT TECHNOLOGY
 1. HTML5 & CSS3
@@ -13,12 +13,10 @@ Order management handles everything from receiving the order to delivery and pos
 8. Hibernate
 9. Spring Data JPA
 
+# Video clip of how the application works
+https://user-images.githubusercontent.com/62297877/178728219-ad090b70-02e2-4f89-aa9b-9185f4899176.mp4
+
 # SCREENSHOTS
-
-
-https://user-images.githubusercontent.com/62297877/178726199-75d22bca-5def-4cea-a8de-98823cf152c5.mp4
-
-
 
 1. Login Page
 ![image](https://user-images.githubusercontent.com/62297877/178722891-8c8a4f11-174b-4190-bc51-637f8cad3d59.png)
