@@ -1,8 +1,6 @@
-# order_handling_web_app
+# PROJECT OVERVIEW
 
-PROJECT OVERVIEW
-
-PROJECT TECHNOLOGY
+# PROJECT TECHNOLOGY
 1. HTML5 & CSS3
 2. Angular 5+
 3. Spring Boot 2+
@@ -13,7 +11,7 @@ PROJECT TECHNOLOGY
 8. Hibernate
 9. Spring Data JPA
 
-SCREENSHOTS
+# SCREENSHOTS
 
 1. Login Page
 ![image](https://user-images.githubusercontent.com/62297877/178722891-8c8a4f11-174b-4190-bc51-637f8cad3d59.png)
