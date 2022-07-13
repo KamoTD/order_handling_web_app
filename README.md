@@ -15,6 +15,11 @@ Order management handles everything from receiving the order to delivery and pos
 
 # SCREENSHOTS
 
+
+https://user-images.githubusercontent.com/62297877/178726199-75d22bca-5def-4cea-a8de-98823cf152c5.mp4
+
+
+
 1. Login Page
 ![image](https://user-images.githubusercontent.com/62297877/178722891-8c8a4f11-174b-4190-bc51-637f8cad3d59.png)
 
