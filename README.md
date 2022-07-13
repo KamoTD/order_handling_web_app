@@ -1,5 +1,7 @@
 # PROJECT OVERVIEW
 
+Order management handles everything from receiving the order to delivery and post-delivery customer service relations. Without order management, a business can easily become overwhelmed by orders or struggle to fill them correctly. Thats where the my order handling we application comes in
+
 # PROJECT TECHNOLOGY
 1. HTML5 & CSS3
 2. Angular 5+
