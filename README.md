@@ -14,7 +14,7 @@ Order handling web app handles everything from receiving the order to delivery a
 9. Spring Data JPA
 
 # Video clip of how the application works
-https://user-images.githubusercontent.com/62297877/178728219-ad090b70-02e2-4f89-aa9b-9185f4899176.mp4
+https://user-images.githubusercontent.com/62297877/178756354-68e7bc36-493b-4470-96ae-6de92a6e29b3.mp4
 
 # SCREENSHOTS
 
