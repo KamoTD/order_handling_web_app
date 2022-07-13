@@ -1,0 +1,95 @@
+<div class="container margin-b">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/home">home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">create order</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 offset-lg-3">
+            <form (submit)="addOrder()">
+                <div class="form-group">
+                    <label>First Name<b style="color: red;">*</b></label>
+                    <input [(ngModel)]="customers.firstName" class="form-control" name="firstName" 
+                    id="firstName" type="text" required="firstName" required #firstName ="ngModel">
+                </div>
+
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input [(ngModel)]="customers.lastName" class="form-control" name="lastName" id="lastName" type="text" required="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label>Contact Number<b style="color: red;">*</b></label>
+                    <input [(ngModel)]="customers.contactNo" class="form-control" name="contact_no" id="contact_no" placeholder="E.g 27761083017" type="tel">
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input [(ngModel)]="customers.emailId" class="form-control" name="emailAddr" id="emailAddr" placeholder="E.g example@gmail.com" type="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Estate<b style="color: red;">*</b></label>
+                    <select [(ngModel)]="customers.estateName" name="estateName" class="form-control">
+                        <option>92 On New</option>
+                        <option>Walford</option>
+                        <option>Tribeca Hill</option>
+                        <option>Palm View</option>
+                        <option>Waterfall Estate</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Unit Number<b style="color: red;">*</b></label>
+                    <input [(ngModel)]="customers.unitNum" class="form-control" name="unitNum" placeholder="E.g B12-U3" type="text">
+                </div>
+
+                <div class="form-group">
+                   <label>Status<b style="color: red;">*</b></label>
+                   <select class="form-control" [(ngModel)]="customers.status" name="status">
+                        <option>Default</option>
+                        <option>Cancellation</option>
+                        <option>Upgrade</option>
+                   </select>
+                </div>
+
+                <div class="form-group">
+                    <label>ISP Name<b style="color: red;">*</b></label>
+                    <select class="form-control" [(ngModel)]="customers.ispName" name="ispName">
+                         <option>Accelerit</option>
+                         <option>Home Connect</option>
+                         <option>Cool Ideas</option>
+                    </select>
+                 </div>
+
+                 <div class="form-group">
+                    <label>Reference Number<b style="color: red;">*</b></label>
+                    <input [(ngModel)]="customers.refNum" class="form-control" name="refNum" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Package<b style="color: red;">*</b></label>
+                    <select class="form-control" [(ngModel)]="customers.lineSpeed" name="lineSpeed">
+                         <option>20Mbps</option>
+                         <option>50Mps</option>
+                         <option>100Mbps</option>
+                         <option>200Mbps</option>
+                    </select>
+                 </div>
+
+                 <div class="form-group">
+                    <label>Order Date<b style="color: red;">*</b></label>
+                    <input [(ngModel)]="customers.orderDate" class="form-control" name="orderDate" type="date">
+                </div>
+
+                <div class="form-group">
+                    <label>Installation Date</label>
+                    <input [(ngModel)]="customers.instDate" class="form-control" name="instDate" type="date">
+                </div>
+
+                <button class="btn btn-success" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

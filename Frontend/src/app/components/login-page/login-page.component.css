@@ -1,0 +1,43 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1.3px solid steelblue;
+    border-radius: 0.25rem;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: steelblue;
+    border-color: rgb(51, 123, 182);
+    align-items: center;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: rgb(51, 123, 182);
+    border-color: rgb(51, 123, 182);
+  }
+  .sign-In{
+    text-decoration: none;
+    color: steelblue;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .align-sub{
+    margin-left: 80px;
+  }
+  .align-page{
+    margin-top: 20px;
+  }

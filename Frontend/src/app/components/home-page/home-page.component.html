@@ -1,0 +1,109 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <h6 style="text-align: center;">Welcome {{session()}}</h6>
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="sub-head jumbotron">{{title}}</p>
+        </div>
+    </div>
+    
+    <div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="stats">STATISTICS</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="card2 card2-1">
+                    <div class="card-body">
+                        <h6>Active Customers</h6>
+                        <p class="align-stats">{{countActive}}</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="card2-2">
+                    <div class="card-body">
+                        <h6>Leading ISP</h6>
+                        <p class="align-stats" style="font-size: 20px;">{{leadingIsp}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="card2-3">
+                    <div class="card-body">
+                        <h6>Upgrades</h6>
+                        <p class="align-stats">{{countStatusUp}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <div class="card2-4">
+                    <div class="card-body">
+                        <h6>Cancellations</h6>
+                        <p class="align-stats">{{countStatusCancel}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <button class="btn btn-success btn-center" routerLink="/statistics">View More</button>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <a class="card-text" routerLink="/create-list">ADD ORDER</a>
+                    <br>
+                    <p class="align fa fa-edit"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <a  class="card-text" routerLink="/view-list">VIEW ORDERS</a>
+                    <br>
+                    <p class="align fa fa-eye"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <a class="card-text" routerLink="/upgrades">UPGRADES</a>
+                    <br>
+                    <p class="align fa fa-line-chart"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <a class="card-text" routerLink="/cancellations">CANCELLATIONS</a>
+                    <br>
+                    <p class="align fa fa-close"></p>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+</div>
+
+<router-outlet></router-outlet>

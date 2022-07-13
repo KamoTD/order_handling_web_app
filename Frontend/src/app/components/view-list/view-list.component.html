@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/home">home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">view orders</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-4 offset-sm-4">
+            <form>
+                <div class="form-group">
+                    <Label>Search</Label>
+                    <input [(ngModel)]="filter.keyword" class="form-control form-text" type="text" name="keyword" id="keyword" placeholder="E.g Search By Name">
+                    <button (click)="getAllCustomer()" type="submit" class="btn btn-success" style="margin-top: 15px;">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>{{"Total: " + totalOrders}}</h5>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td><b>First Name</b></td>
+                        <td><b>Last Name </b></td>
+                        <td><b>Contact Number</b></td>
+                        <td><b>Email Address</b></td>
+                        <td><b>Estate</b></td>
+                        <td><b>Unit Number</b></td>
+                        <td><b>Status</b></td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let customer of customers">
+                        <td>{{customer.firstName}}</td>
+                        <td>{{customer.lastName}}</td>
+                        <td>{{customer.contactNo}}</td>
+                        <td>{{customer.emailId}}</td>
+                        <td>{{customer.estateName}}</td>
+                        <td>{{customer.unitNum}}</td>
+                        <td>{{customer.status}}</td>
+                        <p routerLink="/edit/{{customer.subId}}" class="fa fa-edit btn1"></p>
+                        <p (click)="deleteCustomer(customer.subId)" class="fa fa-trash btn1"></p>
+                        <p routerLink="/view-list-detail/{{customer.subId}}" class="fa fa-address-card"></p>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

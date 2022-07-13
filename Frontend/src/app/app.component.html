@@ -1,0 +1,16 @@
+<!-------Navigation-------->
+<nav class="navi">
+    <div><a routerLink="/home"><img src="assets/circle-technology-logo-vector-23213074.png" class="logo"></a></div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn"><i class="fas fa-bars"></i></label>
+      <ul class="navi">
+        <li *ngIf="isUserLoggedIn()"><a routerLink="/home">Home</a></li>
+        <li *ngIf="!isUserLoggedIn()"><a routerLink="/login-page">[Login]</a></li>
+        <li *ngIf="!isUserLoggedIn()"><a routerLink="/sign-up">Register</a></li>
+        <li *ngIf="isUserLoggedIn()"><a (click)="logOut()" class="hover">[Logout]</a></li>
+        <li *ngIf="isUserLoggedIn()"><a routerLink="/profile/{{userId}}" class="far fa-user-circle profile" style="font-size:25px ;"></a></li>
+      </ul>
+  </nav>
+
+  <router-outlet></router-outlet>
+

@@ -1,0 +1,120 @@
+<div class="container-fluid shift-l">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/home">home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">statistics</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="heading">STATISTICS</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cols-sm-6">
+            <h3>Estate</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>92 On New</td>
+                        <td>Walford</td>
+                        <td>Palm View</td>
+                        <td>Tribeca Hill</td>
+                        <td>WaterFall Estate</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>{{count92oNnEW}}</td>
+                        <td>{{countWalford}}</td>
+                        <td>{{countPalmView}}</td>
+                        <td>{{countTribeca}}</td>
+                        <td>{{countWF}}</td>
+                    </tr>
+                </tbody>
+                <br>
+            </table>
+        </div>
+
+        <div class="cols-sm-4 offset-sm-2">
+            <h3>Internet Service Provider</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>Home Connect</td>
+                        <td>Accelerit</td>
+                        <td>Cool Ideas</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>{{countHC}}</td>
+                        <td>{{countAcc}}</td>
+                        <td>{{countCI}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="cols-sm-6">
+            <h3>Service Package</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>20Mbps</td>
+                        <td>50Mbps</td>
+                        <td>100Mbps</td>
+                        <td>200Mbps</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>{{count20Mbps}}</td>
+                        <td>{{count50Mbps}}</td>
+                        <td>{{count100Mbps}}</td>
+                        <td>{{count200Mbps}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>   
+        
+        <div class="cols-sm-3 offset-sm-2">
+            <h3>Cancellation(s)</h3>
+            <table class="table table-striped"> 
+                <thead>
+                    <tr>
+                        <td>Overall</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{countStatusC}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="cols-sm-6">
+            <h3>Upgrade(s)</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>Overall</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{countStatusU}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>  
+    </div>
+</div>

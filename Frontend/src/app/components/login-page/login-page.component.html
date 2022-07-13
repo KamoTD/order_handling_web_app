@@ -1,0 +1,28 @@
+<div class="container align-page">
+    <div class="row">
+        <div class="col-sm-4 offset-sm-4">
+            <div class="card">
+                <img src="assets/circle-technology-logo-vector-23213074.png" class="logo">
+                <h5 style="color: steelblue; text-align: center; font-weight: bold;">Login</h5>
+                <p style="color: red; text-align: center;">{{loginResponse}}</p>
+                <div class="card-body">
+                    <form (ngSubmit)="login()">
+                        <div class="form-group">
+                            <label>Username<b style="color: red;">*</b></label>
+                            <input [(ngModel)]="user.username" type="text" class="form-control" name="username" id="username">
+
+                            <label>Password<b style="color: red;">*</b></label>
+                            <input [(ngModel)]="user.password" type="password" class="form-control" name="password" id="password">
+                        </div>
+                        <button class="btn btn-primary" type="submit">Login</button>
+                    </form>
+                    <div class="align-sub">
+                        <a routerLink="/sign-up" class="sign-In">Register new account</a>
+                        <br>
+                        <a routerLink="/retrive-password" class="sign-In">Forgot your password?</a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

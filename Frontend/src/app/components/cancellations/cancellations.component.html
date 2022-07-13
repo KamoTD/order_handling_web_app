@@ -1,0 +1,50 @@
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/home">home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Cancellations</li>
+        </ol>
+    </nav>
+
+    <div class="col-sm-12">
+        <h1 class="heading">CANCELLATIONS</h1>
+    </div>
+    <div class="col-sm-4 offset-sm-4">
+        <form>
+            <div class="form-group">
+                <Label>Search</Label>
+                <input [(ngModel)]="keyword" class="form-control form-text" type="text" name="keyword" id="keyword" placeholder="E.g Search By Name">
+                <button (click)="getCancelCust()" type="submit" class="btn btn-success" style="margin-top: 15px;">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h5>{{"Total: " + totalCancelled}}</h5>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                        <td>Contact Number</td>
+                        <td>Email Address</td>
+                        <td>Estate</td>
+                        <td>Unit Number</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let customer of customers">
+                        <td>{{customer.firstName}}</td>
+                        <td>{{customer.lastName}}</td>
+                        <td>{{customer.contactNo}}</td>
+                        <td>{{customer.emailId}}</td>
+                        <td>{{customer.estateName}}</td>
+                        <td>{{customer.unitNum}}</td>      
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

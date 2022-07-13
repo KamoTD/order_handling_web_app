@@ -1,0 +1,59 @@
+<div class="container-fluid margin-b">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/home">home</a></li>
+        <li class="breadcrumb-item"><a routerLink="/view-list">view orders</a></li>
+        <li class="breadcrumb-item active" aria-current="page">view order detail</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 style="color: steelblue;" class="sub-H">CUSTOMER({{customer.subId}}) INFORMATION</h1>
+            <h3 class="name">{{customer.firstName | uppercase}} {{customer.lastName | uppercase}}</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-striped">
+                <tr>
+                    <td><b>Contact Number</b></td>
+                    <td>{{customer.contactNo}}</td>
+                </tr>
+                <tr>
+                    <td><b>Email Address</b></td>
+                    <td>{{customer.emailId}}</td>
+                </tr>
+                <tr>
+                    <td><b>Address</b></td>
+                    <td>{{customer.estateName + ":"}} {{customer.unitNum}}</td>
+                </tr>
+                <tr>
+                    <td><b>Order Status</b></td>
+                    <td>{{customer.status}}</td>
+                </tr>
+                <tr>
+                    <td><b>Subscribed ISP</b></td>
+                    <td>{{customer.ispName}}</td>
+                </tr>
+                <tr>
+                    <td><b>Package</b></td>
+                    <td>{{customer.lineSpeed}}</td>
+                </tr>
+                <tr>
+                    <td><b>Order Reference</b></td>
+                    <td>{{customer.refNum}}</td>
+                </tr>
+                <tr>
+                    <td><b>Order Date</b></td>
+                    <td>{{customer.orderDate}}</td>
+                </tr>
+                <tr>
+                    <td><b>Installation Date</b></td>
+                    <td>{{customer.instDate}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+

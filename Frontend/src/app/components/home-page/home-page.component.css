@@ -1,0 +1,160 @@
+.sub-head{
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 4px 6px gray;
+    color: black;
+    margin-bottom: 50px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1.3px solid steelblue;
+    border-radius: 0.25rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  .card:hover{
+    box-shadow: 2px 4px 6px gray;
+    transition: 0.5s;
+    font-size: 28px;
+  }
+  .card2-1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1.9px solid green;
+    border-radius: 0.25rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .card2-1:hover{
+    border: 1.9px solid rgb(10, 151, 10);
+    background-color: green;
+    color: white;
+    transition: 0.8s;
+  }
+  .card2-2 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1.9px solid rgb(43, 170, 248);
+    border-radius: 0.25rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .card2-2:hover{
+    border: 1.9px solid rgb(2, 81, 129);
+    background-color: rgb(2, 81, 129);
+    color: white;
+    transition: 0.8s;
+  }
+  .card2-3 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1.9px solid indigo;
+    border-radius: 0.25rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .card2-3:hover{
+    border: 1.9px solid indigo;
+    background-color:indigo;
+    color: white;
+    transition: 0.8s;
+  }
+  .card2-4 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1.9px solid red;
+    border-radius: 0.25rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .card2-4:hover{
+    border: 1.9px solid rgb(241, 46, 46);
+    background-color: red;
+    color: white;
+    transition: 0.8s;
+  }
+  .card-text{
+    text-decoration: none;
+    color:black;
+  }
+  .align-stats{
+    text-align: center;
+  }
+  .align{
+    margin-left: 45%;
+  }
+  .stats{
+    background-color: steelblue;
+    color:white;
+    text-align: center;
+  }
+  .btn-center{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .view-order{
+    font-size: 10px;
+  }
+  .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgb(222, 232, 240);
+    border-radius: 0.3rem;
+  }

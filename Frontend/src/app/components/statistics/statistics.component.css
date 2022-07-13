@@ -1,0 +1,28 @@
+.table {
+  width: 540px;
+  margin-bottom: 20px;
+  color: #212529;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(222, 232, 240);
+}
+.heading{
+  text-align: center;
+  color: steelblue;
+  text-shadow: 2px 2px 2px gray;
+  margin-bottom: 40px;
+}
+.shift-l{
+  margin-left: 20px;
+}
+.breadcrumb {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color:white;
+  border-radius: 0.25rem;
+}

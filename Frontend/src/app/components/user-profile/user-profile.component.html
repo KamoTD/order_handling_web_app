@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="col-sm-12">
+        <h1 class="heading">PROFILE</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 offset-sm-4">
+            <form (submit)="updateInfo()">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input [(ngModel)]="user.adminName" type="text" class="form-control" name="adminName">
+                </div>
+
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input [(ngModel)]="user.adminLastName" type="text" class="form-control" name="adminLastName">
+                </div>
+
+                <div class="form-group">
+                    <label>Username <b style="font-size: 13px;">(Please note the username can be changed upon administrators consent)</b></label>
+                    <input [(ngModel)]="user.username" type="text" class="form-control" name="username">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input [(ngModel)]="user.password" type="password" class="form-control" name="password">
+                </div>
+
+                <button type="submit" class="btn btn-success">Update</button>
+            </form>
+        </div>
+    </div>
+</div>
