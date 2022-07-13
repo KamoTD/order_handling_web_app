@@ -1,6 +1,17 @@
 # order_handling_web_app
 
+PROJECT OVERVIEW
+
 PROJECT TECHNOLOGY
+1. HTML5 & CSS3
+2. Angular 5+
+3. Spring Boot 2+
+4. Java 8
+5. Typescript
+6. MySQL
+7. Bootstrap
+8. Hibernate
+9. Spring Data JPA
 
 SCREENSHOTS
 
