@@ -1,6 +1,6 @@
 # PROJECT OVERVIEW
 
-Order management handles everything from receiving the order to delivery and post-delivery customer service relations. Without order management, a business can easily become overwhelmed by orders or struggle to fill them correctly. Thats where the my order handling we application comes in
+Order management handles everything from receiving the order to delivery and post-delivery customer service relations. Without order management, a business can easily become overwhelmed by orders or struggle to fill them correctly. Thats where the my order handling we application comes in, It is a web application that can be used for inventory purposes basically handling companies orders for easy management and ensures security.
 
 # PROJECT TECHNOLOGY
 1. HTML5 & CSS3
